@@ -36,7 +36,6 @@ public class Jugador {
         goles.push(gol);
     }
 
-    // Punto 5
     public int verTotalGoles(Function<Jugador, Integer> funcion) {
         return funcion.apply(this);
     }
